@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Movies</h1>
+  </header>
+  <main>
+    <form>
+      <div>
+        <label>Title:</label><input id="txfTitle" type="text" size="30" maxlength="100" />
+      </div>
+      <div>
+        <label>Released Date:</label><input id="txfReleasedDate" type="text" value="02/03/2018" size="12"/>
+      </div>
+      <div>
+        <label>Budget:</label><input id="txfBudget" type="text" />
+      </div>
+	  <div>
+        <label>Score:</label><input id="txfScore" type="text" />
+      </div>
+      <div>
+        <label>Poster:</label><input id="txfPoster" type="url" size="80" />
+      </div>
+      <div>
+        <button id="btn" type="">Fazer outra coisa</button>
+        <button id="btnReset" type="reset">Reset</button>
+        <button id="btnSave" type="submit">Salvar</button>
+      </div>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Released Date</th>
+          <th>Budget</th>
+		  <th>Score</th>
+          <th>Poster</th>
+        </tr>
+      </thead>
+      <tbody id="tbodyMovies">
+        <tr>
+          <td>Iron Man</td>
+          <td>15/05/2008</td>
+          <td>180.000</td>
+		  <td>7</td>
+          <td><img src="http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/91/79/19/20163665.jpg" width="30px"></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+  </footer>
+  <script src="app.js"> </script>
+</body>
+</html>
